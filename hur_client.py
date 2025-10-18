@@ -68,7 +68,7 @@ def call_hur_service(service_name, params=None):
 
         result = helpers.serialize_object(response, target_cls=dict)
 
-        # Иргэний үнэмлэх лавлагаа үед цээж byte array зургийг base64 руу хөрвуулж байна.
+        # Иргэний үнэмлэх лавлагаа үед цээж зургийг byte array-с base64 руу хөрвуулж байна.
         if service_name == 'WS100101_getCitizenIDCardInfo' and result.get('resultCode', None) == 0 and result['response']['image']:
             result['response']['image'] = base64.b64encode(result['response']['image']).decode('utf-8')
 
