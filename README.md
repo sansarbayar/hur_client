@@ -6,7 +6,7 @@
 ## Host file-d нэмэх тохиргоо:
 10.12.0.12 xyp.gov.mn
 
-## Open vpn file-д хийх тохиргоо /доорх VPN холбогдох command нь энэ TXT файлаас нэвтрэх мэдээллээ авах юм/
+## OpenVPN file-д хийх нэмэлт тохиргоо /доорх VPN холбогдох command нь энэ TXT файлаас нэвтрэх мэдээллээ авах юм/
 auth-user-pass /path/vpn_username_pass_file.txt
 
 ## VPN connect хийх /Ubuntu Server/
