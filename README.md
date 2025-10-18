@@ -1,8 +1,13 @@
-# Host file-d нэмэх тохиргоо:
+# ХУР client /Python/
+
+- Цахим хөгжил, инновац, харилцаа холбооны яам /ЦХИХХЯ/-с ХУР ашиглаглах гэрээ байгууласан байх
+- Гэрээний дагуу Үндэсний дата төвөөс ХУР-тай холбогдох VPN холболтын эрх болон VPN холболтын файл авсан байх
+
+## Host file-d нэмэх тохиргоо:
 10.12.0.12 xyp.gov.mn
 
-# open vpn file-Д хийх тохиргоо
+## Open vpn file-д хийх тохиргоо /доорх VPN холбогдох command нь энэ TXT файлаас нэвтрэх мэдээллээ авах юм/
 auth-user-pass /path/vpn_username_pass_file.txt
 
-# VPB connect хийх
+## VPN connect хийх
 sudo openvpn filename.ovpn &

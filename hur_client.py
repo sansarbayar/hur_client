@@ -11,8 +11,8 @@ from Crypto.Hash import SHA256
 from Crypto.Signature import PKCS1_v1_5
 from Crypto.PublicKey import RSA
 
-HUR_PKEY_PATH = 'PRIVATE KEY FILE PATH'
-HUR_ACCESS_TOKEN = 'ACCESS TOKEN'
+HUR_PKEY_PATH = '# PRIVATE KEY FILE PATH #'
+HUR_ACCESS_TOKEN = '# ACCESS TOKEN #'
 
 HUR_SERVICES = {
     'WS100101_getCitizenIDCardInfo': 'https://xyp.gov.mn/citizen-1.3.0/ws?WSDL',
