@@ -9,5 +9,5 @@
 ## Open vpn file-д хийх тохиргоо /доорх VPN холбогдох command нь энэ TXT файлаас нэвтрэх мэдээллээ авах юм/
 auth-user-pass /path/vpn_username_pass_file.txt
 
-## VPN connect хийх
+## VPN connect хийх /Ubuntu Server/
 sudo openvpn filename.ovpn &
