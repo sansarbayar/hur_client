@@ -1,0 +1,13 @@
+*.log
+*.log.*
+*.pot
+*.pyc
+*.bak
+*.egg
+*.coverage
+*.sqlite3
+.venv
+venv
+.idea
+.DS_Store
+.log
